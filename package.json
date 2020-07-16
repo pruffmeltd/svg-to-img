@@ -75,10 +75,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/etienne-martin/svg-to-img"
+    "url": "https://github.com/pruffmeltd/svg-to-img"
   },
   "bugs": {
-    "url": "https://github.com/etienne-martin/svg-to-img/issues"
+    "url": "https://github.com/pruffmeltd/svg-to-img/issues"
   },
   "engines": {
     "node": ">= 7.6.0"
@@ -87,7 +87,7 @@
   "devDependencies": {
     "@types/image-size": "0.0.29",
     "@types/jest": "22.2.3",
-    "@types/puppeteer": "1.10.1",
+    "@types/puppeteer": "3.0.1",
     "@types/rimraf": "2.0.2",
     "coveralls": "3.0.2",
     "husky": "0.15.0-rc.13",
@@ -102,6 +102,6 @@
     "typescript": "2.9.2"
   },
   "dependencies": {
-    "puppeteer": "^5.1.0"
+    "puppeteer": "5.1.0"
   }
 }
