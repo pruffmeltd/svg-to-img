@@ -54,7 +54,7 @@ const scheduleBrowserForDestruction = () => {
       browserState = "closed";
       await browserInstance.close();
     }
-  }, 500);
+  }, 10000);/* Changed from 500 to 10000 to check*/
 };
 
 const convertSvg = async (inputSvg: Buffer|string, passedOptions: IOptions): Promise<Buffer|string> => {
